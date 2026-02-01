@@ -1,0 +1,19 @@
+{
+  "name": "python-tutorials",
+  "version": "1.0.0",
+  "description": "这是一个专为前端开发工程师设计的 Python 转岗教程，帮助你快速掌握 Python 核心概念和 Web 开发技能。",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "preview": "vitepress preview docs",
+    "docs:clean": "vitepress clean docs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "vitepress": "^1.6.4"
+  },
+  "packageManager": "pnpm@10.23.0+sha512.21c4e5698002ade97e4efe8b8b4a89a8de3c85a37919f957e7a0f30f38fbc5bbdd05980ffe29179b2fb6e6e691242e098d945d1601772cad0fef5fb6411e2a4b"
+}
