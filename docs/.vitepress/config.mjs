@@ -6,8 +6,7 @@ export default defineConfig({
   themeConfig: {
     nav: [
       { text: '首页', link: '/' },
-      { text: '入门篇', link: '/chapter-01/' },
-      { text: 'Web 开发', link: '/chapter-11/' },
+      { text: '学习路径', link: '/learning-path' },
       { text: '项目实战', link: '/project-01/' },
     ],
 
@@ -28,15 +27,17 @@ export default defineConfig({
           { text: '第4章：控制流程', link: '/chapter-04/' },
           { text: '第5章：函数', link: '/chapter-05/' },
           { text: '项目1：待办事项管理器', link: '/project-01/' },
-          { text: '第7章：面向对象', link: '/chapter-07/' },
-          { text: '第8章：模块与包', link: '/chapter-08/' },
         ]
       },
       {
         text: '第二部分：进阶主题',
         items: [
-          { text: '第9章：异常与文件', link: '/chapter-09/' },
-          { text: '第10章：异步编程', link: '/chapter-10/' },
+          { text: '第6章：面向对象编程', link: '/chapter-06/' },
+          { text: '第7章：模块与包管理', link: '/chapter-07/' },
+          { text: '第8章：异常处理与文件操作', link: '/chapter-08/' },
+          { text: '第9章：异步编程基础', link: '/chapter-09/' },
+          { text: '第10章：装饰器与上下文管理器', link: '/chapter-10/' },
+          { text: '项目2：数据处理脚本', link: '/project-02/' },
         ]
       },
       {
@@ -45,9 +46,20 @@ export default defineConfig({
           { text: '第11章：Web 开发入门', link: '/chapter-11/' },
           { text: '第12章：FastAPI 快速上手', link: '/chapter-12/' },
           { text: '第13章：数据库操作', link: '/chapter-13/' },
-          { text: '第14章：身份认证', link: '/chapter-14/' },
-          { text: '项目2：博客 API 系统', link: '/project-02/' },
-          { text: '第16章：部署与运维', link: '/chapter-16/' },
+          { text: '第14章：身份认证与授权', link: '/chapter-14/' },
+          { text: '第15章：API 测试与文档', link: '/chapter-15/' },
+          { text: '项目3：博客 API 系统', link: '/project-03/' },
+        ]
+      },
+      {
+        text: '第四部分：进阶实战',
+        items: [
+          { text: '第16章：WebSocket 实时通信', link: '/chapter-16/' },
+          { text: '第17章：任务队列与定时任务', link: '/chapter-17/' },
+          { text: '第18章：缓存与性能优化', link: '/chapter-18/' },
+          { text: '第19章：日志与监控', link: '/chapter-19/' },
+          { text: '第20章：容器化与部署', link: '/chapter-20/' },
+          { text: '项目4：全栈实战项目', link: '/project-04/' },
         ]
       }
     ],
