@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//Users/huangjing/.claude/**)"
+    ],
+    "additionalDirectories": [
+      "/Users/huangjing/.claude/skills"
+    ]
+  }
+}

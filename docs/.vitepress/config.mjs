@@ -22,6 +22,7 @@ export default defineConfig({
         text: '学习随笔',
         items: [
           { text: 'Python 依赖管理', link: '/notes/python-dependency-management' },
+          { text: 'requirements.txt 说明', link: '/notes/requirements-txt-guide' },
         ]
       },
       {
