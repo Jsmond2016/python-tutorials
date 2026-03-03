@@ -1,10 +1,13 @@
 {
   "permissions": {
     "allow": [
-      "Read(//Users/huangjing/.claude/**)"
+      "Read(//Users/huangjing/.claude/**)",
+      "Read(//Users/huangjing/Library/Application Support/Code/User/profiles/5cd01083/**)",
+      "Read(//Users/huangjing/Library/Application Support/Code/User/**)"
     ],
     "additionalDirectories": [
-      "/Users/huangjing/.claude/skills"
+      "/Users/huangjing/.claude/skills",
+      "/Users/huangjing/Library/Application Support/Code/User"
     ]
   }
 }
