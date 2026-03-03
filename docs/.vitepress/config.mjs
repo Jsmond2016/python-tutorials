@@ -23,6 +23,7 @@ export default defineConfig({
         items: [
           { text: 'Python 依赖管理', link: '/notes/python-dependency-management' },
           { text: 'requirements.txt 说明', link: '/notes/requirements-txt-guide' },
+          { text: 'Lambda 表达式详解', link: '/notes/python-lambda' },
         ]
       },
       {
