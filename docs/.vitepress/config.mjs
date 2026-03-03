@@ -19,6 +19,12 @@ export default defineConfig({
         ]
       },
       {
+        text: '学习随笔',
+        items: [
+          { text: 'Python 依赖管理', link: '/notes/python-dependency-management' },
+        ]
+      },
+      {
         text: '第一部分：Python 基础',
         items: [
           { text: '第1章：环境搭建', link: '/chapter-01/' },
