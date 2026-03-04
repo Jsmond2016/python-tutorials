@@ -24,6 +24,7 @@ export default defineConfig({
           { text: 'Python 依赖管理', link: '/notes/python-dependency-management' },
           { text: 'requirements.txt 说明', link: '/notes/requirements-txt-guide' },
           { text: 'Lambda 表达式详解', link: '/notes/python-lambda' },
+          { text: '控制流程与 JS 对比', link: '/notes/python-control-flow-summary' },
         ]
       },
       {
