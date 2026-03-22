@@ -74,7 +74,7 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/your-username/python-tutorials' }
+      { icon: 'github', link: 'https://github.com/Jsmond2016/python-tutorials' }
     ],
 
     footer: {
