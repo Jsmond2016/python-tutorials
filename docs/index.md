@@ -1,4 +1,4 @@
-c---
+---
 layout: home
 
 hero:
@@ -25,7 +25,7 @@ features:
     details: 每个章节都有练习题，阶段性有实战项目
   - icon: 🚀
     title: 主流技术栈
-    details: 基于 Python 3.10+，使用 FastAPI、SQLAlchemy 等主流库
+    details: 基于 Python 3.10+，覆盖 FastAPI、Flask、Django、SQLAlchemy 等主流技术
   - icon: 💡
     title: 项目驱动
     details: 从命令行工具到 Web 应用，循序渐进
@@ -45,7 +45,7 @@ features:
 ## 🛠️ 技术栈
 
 - **Python**: 3.10+
-- **Web 框架**: FastAPI
+- **Web 框架**: FastAPI / Flask / Django
 - **数据库**: SQLite（开发）/ PostgreSQL（生产）
 - **ORM**: SQLAlchemy 2.0+
 - **测试**: pytest
@@ -83,6 +83,12 @@ features:
 - 日志与监控
 - 容器化与部署
 - 阶段项目4：全栈实战项目
+
+### 第五部分：Web 框架拓展
+- Flask 快速上手
+- Flask 轻量任务 API
+- Django 快速上手
+- Django 图书管理系统
 
 ## 🚀 开始学习
 

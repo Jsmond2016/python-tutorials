@@ -44,6 +44,15 @@
 | Day 37-38 | 第19章：日志与监控         | logging、Sentry、Prometheus     |
 | Day 39-40 | 第20章：容器化与部署 + 项目4 | Docker、CI/CD、全栈实战项目     |
 
+### Week 5：Web 框架拓展（第 21-22 章 + 项目5-6）
+
+| 天数      | 内容                       | 重点                           |
+| --------- | -------------------------- | ------------------------------ |
+| Day 41-42 | 第21章：Flask 快速上手    | 路由、请求响应、Blueprint、模板 |
+| Day 43-44 | 项目5：Flask 轻量任务 API | Flask-SQLAlchemy、迁移、测试    |
+| Day 45-46 | 第22章：Django 快速上手   | MVT、ORM、Admin、模板、表单     |
+| Day 47-48 | 项目6：Django 图书管理系统 | CRUD、后台管理、页面和 JSON API |
+
 ## 🎯 学习建议
 
 ### 1. 循序渐进
@@ -108,11 +117,19 @@
   - [ ] 第20章：容器化与部署
   - [ ] 项目4：全栈实战项目
 
+- [ ] 第五部分：Web 框架拓展
+  - [ ] 第21章：Flask 快速上手
+  - [ ] 项目5：Flask 轻量任务 API
+  - [ ] 第22章：Django 快速上手
+  - [ ] 项目6：Django 图书管理系统
+
 ## 💡 学习资源
 
 ### 官方文档
 - [Python 官方文档](https://docs.python.org/zh-cn/3/)
 - [FastAPI 官方文档](https://fastapi.tiangolo.com/zh/)
+- [Flask 官方文档](https://flask.palletsprojects.com/)
+- [Django 官方文档](https://docs.djangoproject.com/)
 - [SQLAlchemy 文档](https://docs.sqlalchemy.org/)
 
 ### 推荐书籍

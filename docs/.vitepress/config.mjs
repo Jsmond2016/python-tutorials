@@ -70,6 +70,15 @@ export default defineConfig({
           { text: '第20章：容器化与部署', link: '/chapter-20/' },
           { text: '项目4：全栈实战项目', link: '/project-04/' },
         ]
+      },
+      {
+        text: '第五部分：Web 框架拓展',
+        items: [
+          { text: '第21章：Flask 快速上手', link: '/chapter-21/' },
+          { text: '项目5：Flask 轻量任务 API', link: '/project-05/' },
+          { text: '第22章：Django 快速上手', link: '/chapter-22/' },
+          { text: '项目6：Django 图书管理系统', link: '/project-06/' },
+        ]
       }
     ],
 
