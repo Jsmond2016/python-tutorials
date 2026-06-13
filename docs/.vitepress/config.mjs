@@ -6,8 +6,27 @@ export default defineConfig({
   themeConfig: {
     nav: [
       { text: '首页', link: '/' },
-      { text: '学习路径', link: '/learning-path' },
-      { text: '项目实战', link: '/project-01/' },
+      { text: '开始阅读', link: '/chapter-01/' },
+      {
+        text: '项目实战',
+        items: [
+          { text: '项目1：待办事项管理器', link: '/project-01/' },
+          { text: '项目2：数据处理脚本', link: '/project-02/' },
+          { text: '项目3：博客 API 系统', link: '/project-03/' },
+          { text: '项目4：全栈实战项目', link: '/project-04/' },
+          { text: '项目5：Flask 轻量任务 API', link: '/project-05/' },
+          { text: '项目6：Django 图书管理系统', link: '/project-06/' },
+        ]
+      },
+      {
+        text: '学习笔记',
+        items: [
+          { text: 'Python 依赖管理', link: '/notes/python-dependency-management' },
+          { text: 'requirements.txt 说明', link: '/notes/requirements-txt-guide' },
+          { text: 'Lambda 表达式详解', link: '/notes/python-lambda' },
+          { text: '控制流程与 JS 对比', link: '/notes/python-control-flow-summary' },
+        ]
+      },
     ],
 
     sidebar: [
@@ -16,15 +35,6 @@ export default defineConfig({
         items: [
           { text: '简介', link: '/' },
           { text: '学习路径', link: '/learning-path' },
-        ]
-      },
-      {
-        text: '学习随笔',
-        items: [
-          { text: 'Python 依赖管理', link: '/notes/python-dependency-management' },
-          { text: 'requirements.txt 说明', link: '/notes/requirements-txt-guide' },
-          { text: 'Lambda 表达式详解', link: '/notes/python-lambda' },
-          { text: '控制流程与 JS 对比', link: '/notes/python-control-flow-summary' },
         ]
       },
       {
@@ -78,6 +88,15 @@ export default defineConfig({
           { text: '项目5：Flask 轻量任务 API', link: '/project-05/' },
           { text: '第22章：Django 快速上手', link: '/chapter-22/' },
           { text: '项目6：Django 图书管理系统', link: '/project-06/' },
+        ]
+      },
+      {
+        text: '学习随笔',
+        items: [
+          { text: 'Python 依赖管理', link: '/notes/python-dependency-management' },
+          { text: 'requirements.txt 说明', link: '/notes/requirements-txt-guide' },
+          { text: 'Lambda 表达式详解', link: '/notes/python-lambda' },
+          { text: '控制流程与 JS 对比', link: '/notes/python-control-flow-summary' },
         ]
       }
     ],
